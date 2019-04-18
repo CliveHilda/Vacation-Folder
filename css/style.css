@@ -1,0 +1,54 @@
+.section{
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: bold;
+}
+
+p, ul{
+  font-size: 35px;
+}
+
+ul{
+  list-style: none;
+}
+
+#page1{
+  background-image: url("../images/SA1.jpg");
+  background-size: cover;
+}
+
+#page2{
+  background-color: pink;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#slide2{
+  background-image: url("../images/SA2.jpg");
+  background-size: cover;
+}
+
+#slide3{
+  background-image: url("../images/SA3.jpg");
+  background-size: cover;
+}
+
+#slide4{
+  background-image: url("../images/SA4.jpg");
+  background-size: cover;
+}
+
+#page3{
+  background-color: darkgrey;
+}
+
+#page4{
+  background-color: lightgreen;
+  background-image: url("../images/SA5.jpg");
+  background-size: cover;
+}

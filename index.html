@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vacation Site</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fullpage.css">
+  </head>
+  <body>
+
+    <div id="fullpage">
+    	<div class="section" id="page1">
+        <h1>SOUTH AFRICA</h1>
+        <p>South Africa is a great place to visit! With a population of more than 20 people and an incredible mix of cultures, make South Africa your next destination today!</p>
+
+      </div>
+    	<div class="section" id="page2">
+        <div class="slide" data-anchor="slide1" id="slide1"> <h1>GALLERY</h1> </div>
+      	<div class="slide" data-anchor="slide2" id="slide2"> </div>
+      	<div class="slide" data-anchor="slide3" id="slide3"> </div>
+        <div class="slide" data-anchor="slide4" id="slide4"> </div>
+      </div>
+    	<div class="section" id="page3">
+        <h1>We have:</h1>
+        <ul>
+          <li>Great parks</li>
+          <li>Sports</li>
+          <li>Beaches</li>
+          <li>Nightlife</li>
+          <li>And more</li>
+        </ul>
+      </div>
+    	<div class="section" id="page4">
+        <h1>Come visit!</h1>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="js/fullpage.min.js"></script>
+    <script>
+          new fullpage('#fullpage', {
+    	autoScrolling:true,
+    	scrollHorizontally: true,
+      scrollBar: true
+    });
+    fullpage_api.setAllowScrolling(true);
+    </script>
+  </body>
+</html>
